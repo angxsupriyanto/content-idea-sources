@@ -1,0 +1,408 @@
+{
+  "sources": [
+    {
+      "id": "ditjen-hubdat",
+      "name": "Ditjen Perhubungan Darat",
+      "type": "regulator",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "transportasi_logistik",
+        "regulasi",
+        "keselamatan_armada"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://hubdat.dephub.go.id/id/publikasi/",
+          "purpose": "berita_dan_siaran_pers"
+        }
+      ],
+      "keywords": [],
+      "notes": "Siaran pers, angkutan barang, ODOL, keselamatan; cek naskah aturan di JDIH."
+    },
+    {
+      "id": "kementerian-esdm",
+      "name": "Kementerian ESDM",
+      "type": "regulator",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "bbm_energi",
+        "pertambangan_alat_berat"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://www.esdm.go.id/id/media-center/arsip-berita",
+          "purpose": "berita_dan_siaran_pers"
+        }
+      ],
+      "keywords": [],
+      "notes": "Biodiesel, energi dan pengujian; pisahkan target kebijakan dari implementasi."
+    },
+    {
+      "id": "bph-migas",
+      "name": "BPH Migas",
+      "type": "regulator",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "bbm_energi"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://www.bphmigas.go.id/berita/",
+          "purpose": "berita"
+        }
+      ],
+      "keywords": [],
+      "notes": "Distribusi dan pengawasan BBM."
+    },
+    {
+      "id": "jdih-kemenhub",
+      "name": "JDIH Kemenhub",
+      "type": "dokumen_hukum",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "regulasi",
+        "transportasi_logistik"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://jdih.dephub.go.id/peraturan/index",
+          "purpose": "peraturan"
+        }
+      ],
+      "keywords": [],
+      "notes": "Periksa status, tanggal berlaku, dan isi pasal; tidak selalu berisi berita baru."
+    },
+    {
+      "id": "jdih-esdm",
+      "name": "JDIH ESDM",
+      "type": "dokumen_hukum",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "regulasi",
+        "bbm_energi",
+        "pertambangan_alat_berat"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://jdih.esdm.go.id/",
+          "purpose": "peraturan"
+        }
+      ],
+      "keywords": [],
+      "notes": "Periksa dokumen peraturan asli dan status berlakunya."
+    },
+    {
+      "id": "aptrindo",
+      "name": "APTRINDO—News",
+      "type": "asosiasi",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "transportasi_logistik",
+        "kendaraan_niaga"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://aptrindo.id/news/",
+          "purpose": "berita_asosiasi"
+        }
+      ],
+      "keywords": [],
+      "notes": "Pandangan dan pengumuman asosiasi pengusaha truk; klaim kebijakan cek ke regulator."
+    },
+    {
+      "id": "knkt-llaj",
+      "name": "KNKT—LLAJ",
+      "type": "investigasi",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "keselamatan_armada",
+        "transportasi_logistik"
+      ],
+      "content_goal": [
+        "awareness"
+      ],
+      "urls": [
+        {
+          "url": "https://knkt.go.id/subkomite/llaj",
+          "purpose": "laporan_investigasi"
+        }
+      ],
+      "keywords": [],
+      "notes": "Temuan dan rekomendasi investigasi kecelakaan jalan."
+    },
+    {
+      "id": "ditjen-bina-marga",
+      "name": "Ditjen Bina Marga",
+      "type": "infrastruktur",
+      "priority": "medium",
+      "status": "active",
+      "topics": [
+        "transportasi_logistik"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://binamarga.pu.go.id/berita",
+          "purpose": "berita"
+        }
+      ],
+      "keywords": [],
+      "notes": "Jalan nasional, jembatan, gangguan rute."
+    },
+    {
+      "id": "bpjt",
+      "name": "BPJT",
+      "type": "infrastruktur",
+      "priority": "medium",
+      "status": "active",
+      "topics": [
+        "transportasi_logistik"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://bpjt.pu.go.id/berita/",
+          "purpose": "berita"
+        }
+      ],
+      "keywords": [],
+      "notes": "Jalan tol, akses dan perubahan infrastruktur."
+    },
+    {
+      "id": "korlantas-polri",
+      "name": "Korlantas Polri",
+      "type": "penegak_hukum",
+      "priority": "medium",
+      "status": "active",
+      "topics": [
+        "regulasi",
+        "keselamatan_armada"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://korlantas.polri.go.id/",
+          "purpose": "berita"
+        }
+      ],
+      "keywords": [],
+      "notes": "Penegakan aturan dan kondisi lalu lintas; cek dasar hukumnya."
+    },
+    {
+      "id": "bps-transportasi",
+      "name": "BPS—Statistik Transportasi",
+      "type": "data",
+      "priority": "supporting",
+      "status": "active",
+      "topics": [
+        "transportasi_logistik"
+      ],
+      "content_goal": [
+        "awareness"
+      ],
+      "urls": [
+        {
+          "url": "https://www.bps.go.id/id/statistics-table?subject=560",
+          "purpose": "statistik"
+        }
+      ],
+      "keywords": [],
+      "notes": "Data untuk konteks dan artikel evergreen; frekuensi bukan harian."
+    },
+    {
+      "id": "ditjen-minerba",
+      "name": "Ditjen Minerba",
+      "type": "regulator",
+      "priority": "monitor",
+      "status": "monitor",
+      "topics": [
+        "pertambangan_alat_berat"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://www.minerba.esdm.go.id/",
+          "purpose": "berita"
+        }
+      ],
+      "keywords": [],
+      "notes": "Situs terpantau dalam perbaikan pada 27 Sep 2026; gunakan ESDM dan JDIH sebagai cadangan."
+    },
+    {
+      "id": "kompas-otomotif-niaga",
+      "name": "Kompas Otomotif—Niaga",
+      "type": "media",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "kendaraan_niaga",
+        "teknologi_armada"
+      ],
+      "content_goal": [
+        "awareness"
+      ],
+      "urls": [
+        {
+          "url": "https://otomotif.kompas.com/niaga",
+          "purpose": "liputan_industri"
+        }
+      ],
+      "keywords": [],
+      "notes": "Truk, bus, pengemudi, kendaraan niaga; verifikasi klaim ke sumber asli."
+    },
+    {
+      "id": "detikoto-kendaraan-niaga",
+      "name": "detikOto—Kendaraan Niaga",
+      "type": "media",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "kendaraan_niaga",
+        "teknologi_armada"
+      ],
+      "content_goal": [
+        "awareness"
+      ],
+      "urls": [
+        {
+          "url": "https://oto.detik.com/kendaraan-niaga",
+          "purpose": "liputan_industri"
+        }
+      ],
+      "keywords": [],
+      "notes": "Produk, operator, pengemudi dan isu industri; cek sumber kutipan."
+    },
+    {
+      "id": "logistik-news",
+      "name": "Logistik News—Transportasi & Logistik",
+      "type": "media_industri",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "transportasi_logistik"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://www.logistiknews.id/topic/transportasi-logistik/",
+          "purpose": "liputan_industri"
+        }
+      ],
+      "keywords": [],
+      "notes": "Trucking, asosiasi, pelabuhan dan kendala distribusi."
+    },
+    {
+      "id": "bisnis-transportasi-logistik",
+      "name": "Bisnis.com—Transportasi & Logistik",
+      "type": "media",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "transportasi_logistik"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://ekonomi.bisnis.com/transportasi-logistik",
+          "purpose": "liputan_industri"
+        }
+      ],
+      "keywords": [],
+      "notes": "Cakupan banyak moda; saring ketat untuk operasional armada darat."
+    },
+    {
+      "id": "antara-ekonomi-bisnis",
+      "name": "ANTARA—Ekonomi/Bisnis",
+      "type": "kantor_berita",
+      "priority": "medium",
+      "status": "active",
+      "topics": [
+        "ekonomi",
+        "transportasi_logistik",
+        "bbm_energi"
+      ],
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "urls": [
+        {
+          "url": "https://www.antaranews.com/ekonomi/bisnis",
+          "purpose": "liputan_ekonomi"
+        }
+      ],
+      "keywords": [],
+      "notes": "Rubrik luas; cari kata kunci armada, logistik, BBM, tambang; cek rilis asal."
+    },
+    {
+      "id": "petromindo",
+      "name": "Petromindo",
+      "type": "media_industri",
+      "priority": "medium",
+      "status": "active",
+      "topics": [
+        "pertambangan_alat_berat"
+      ],
+      "content_goal": [
+        "awareness"
+      ],
+      "urls": [
+        {
+          "url": "https://www.petromindo.com/",
+          "purpose": "liputan_industri"
+        }
+      ],
+      "keywords": [],
+      "notes": "Dinamika pertambangan; sebagian konten mungkin berbayar."
+    }
+  ]
+}
