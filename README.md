@@ -4,6 +4,31 @@ Daftar sumber untuk menemukan perkembangan industri yang berpotensi menjadi ide 
 
 **Daftar utama:** [sources.json](sources.json) — satu-satunya file sumber yang dipelihara di repositori ini. Daftar awal memuat 18 sumber resmi, asosiasi, data, dan media industri. Temuan dari media dapat menjadi titik awal riset; verifikasi fakta penting pada dokumen, data, atau pihak asalnya.
 
+## Daftar sumber
+
+Tabel ini memudahkan pembacaan daftar. **`sources.json` adalah data utama**; saat memperbarui sumber, sesuaikan juga tabel ringkas ini agar tampilan repositori tetap akurat.
+
+| Sumber | Jenis | Topik | Prioritas | Tujuan konten | Status |
+| --- | --- | --- | --- | --- | --- |
+| [Ditjen Perhubungan Darat](https://hubdat.dephub.go.id/id/publikasi/) | Regulator | Transportasi & logistik, Regulasi, Keselamatan armada | Tinggi | awareness, acquisition | Aktif |
+| [Kementerian ESDM](https://www.esdm.go.id/id/media-center/arsip-berita) | Regulator | BBM & energi, Pertambangan & alat berat | Tinggi | awareness, acquisition | Aktif |
+| [BPH Migas](https://www.bphmigas.go.id/berita/) | Regulator | BBM & energi | Tinggi | awareness, acquisition | Aktif |
+| [JDIH Kemenhub](https://jdih.dephub.go.id/peraturan/index) | Dokumen hukum | Regulasi, Transportasi & logistik | Tinggi | awareness, acquisition | Aktif |
+| [JDIH ESDM](https://jdih.esdm.go.id/) | Dokumen hukum | Regulasi, BBM & energi, Pertambangan & alat berat | Tinggi | awareness, acquisition | Aktif |
+| [APTRINDO—News](https://aptrindo.id/news/) | Asosiasi | Transportasi & logistik, Kendaraan niaga | Tinggi | awareness, acquisition | Aktif |
+| [KNKT—LLAJ](https://knkt.go.id/subkomite/llaj) | Investigasi | Keselamatan armada, Transportasi & logistik | Tinggi | awareness | Aktif |
+| [Ditjen Bina Marga](https://binamarga.pu.go.id/berita) | Infrastruktur | Transportasi & logistik | Sedang | awareness, acquisition | Aktif |
+| [BPJT](https://bpjt.pu.go.id/berita/) | Infrastruktur | Transportasi & logistik | Sedang | awareness, acquisition | Aktif |
+| [Korlantas Polri](https://korlantas.polri.go.id/) | Penegak hukum | Regulasi, Keselamatan armada | Sedang | awareness, acquisition | Aktif |
+| [BPS—Statistik Transportasi](https://www.bps.go.id/id/statistics-table?subject=560) | Data | Transportasi & logistik | Pendukung | awareness | Aktif |
+| [Ditjen Minerba](https://www.minerba.esdm.go.id/) | Regulator | Pertambangan & alat berat | Pantau akses | awareness, acquisition | Pantau akses |
+| [Kompas Otomotif—Niaga](https://otomotif.kompas.com/niaga) | Media | Kendaraan niaga, Teknologi armada | Tinggi | awareness | Aktif |
+| [detikOto—Kendaraan Niaga](https://oto.detik.com/kendaraan-niaga) | Media | Kendaraan niaga, Teknologi armada | Tinggi | awareness | Aktif |
+| [Logistik News—Transportasi & Logistik](https://www.logistiknews.id/topic/transportasi-logistik/) | Media industri | Transportasi & logistik | Tinggi | awareness, acquisition | Aktif |
+| [Bisnis.com—Transportasi & Logistik](https://ekonomi.bisnis.com/transportasi-logistik) | Media | Transportasi & logistik | Tinggi | awareness, acquisition | Aktif |
+| [ANTARA—Ekonomi/Bisnis](https://www.antaranews.com/ekonomi/bisnis) | Kantor berita | Ekonomi, Transportasi & logistik, BBM & energi | Sedang | awareness, acquisition | Aktif |
+| [Petromindo](https://www.petromindo.com/) | Media industri | Pertambangan & alat berat | Sedang | awareness | Aktif |
+
 ## Membaca daftar
 
 Setiap objek dalam `sources` mewakili satu sumber.
