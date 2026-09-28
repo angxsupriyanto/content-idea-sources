@@ -1,17 +1,18 @@
-name: Sync source table
+name: Sync content tables
 
 on:
   push:
     branches: [main]
     paths:
       - sources.json
+      - product_catalog.json
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: sync-source-table
+  group: sync-content-tables
   cancel-in-progress: false
 
 jobs:
@@ -32,5 +33,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Sync README source table"
+          git commit -m "Sync README content tables"
           git push
