@@ -6,8 +6,9 @@ Daftar sumber untuk menemukan perkembangan industri yang berpotensi menjadi ide 
 
 ## Daftar sumber
 
-Tabel ini memudahkan pembacaan daftar. **`sources.json` adalah data utama**; saat memperbarui sumber, sesuaikan juga tabel ringkas ini agar tampilan repositori tetap akurat.
+Tabel ini dibuat otomatis dari `sources.json`, yaitu satu-satunya data utama. Edit daftar di file JSON; perubahan pada tabel akan menyusul setelah sinkronisasi berjalan.
 
+<!-- sources-table:start -->
 | Sumber | Jenis | Topik | Prioritas | Tujuan konten | Status |
 | --- | --- | --- | --- | --- | --- |
 | [Ditjen Perhubungan Darat](https://hubdat.dephub.go.id/id/publikasi/) | Regulator | Transportasi & logistik, Regulasi, Keselamatan armada | Tinggi | awareness, acquisition | Aktif |
@@ -28,6 +29,7 @@ Tabel ini memudahkan pembacaan daftar. **`sources.json` adalah data utama**; saa
 | [Bisnis.com—Transportasi & Logistik](https://ekonomi.bisnis.com/transportasi-logistik) | Media | Transportasi & logistik | Tinggi | awareness, acquisition | Aktif |
 | [ANTARA—Ekonomi/Bisnis](https://www.antaranews.com/ekonomi/bisnis) | Kantor berita | Ekonomi, Transportasi & logistik, BBM & energi | Sedang | awareness, acquisition | Aktif |
 | [Petromindo](https://www.petromindo.com/) | Media industri | Pertambangan & alat berat | Sedang | awareness | Aktif |
+<!-- sources-table:end -->
 
 ## Membaca daftar
 
@@ -51,7 +53,7 @@ Setiap objek dalam `sources` mewakili satu sumber.
 1. Buka [sources.json](sources.json), klik ikon pensil (**Edit this file**), lalu ubah isinya.
 2. Untuk sumber baru, salin satu objek yang ada, buat `id` yang berbeda, dan sesuaikan semua field. Jangan gunakan ulang `id` milik sumber lain.
 3. Pastikan format JSON valid: pisahkan objek dengan koma, gunakan tanda kutip ganda, dan jangan beri koma setelah objek atau item terakhir.
-4. Klik **Commit changes** dan tulis ringkasan perubahan. Riwayat commit menyimpan perubahan daftar.
+4. Klik **Commit changes** dan tulis ringkasan perubahan. Riwayat commit menyimpan perubahan daftar; tabel README diperbarui otomatis oleh GitHub Actions.
 5. Bila situs sementara tidak dapat diakses, gunakan `status: "monitor"` dan jelaskan kondisinya di `notes`. Perbarui lagi setelah akses pulih.
 
 Contoh satu entri:
