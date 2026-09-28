@@ -1,12 +1,12 @@
-# McEasy Content Idea Sources
+# McEasy Content Idea Sources & Product Catalog
 
 Daftar sumber untuk menemukan perkembangan industri yang berpotensi menjadi ide konten blog McEasy. Fokusnya meliputi logistik dan transportasi, pertambangan dan alat berat, teknologi armada, BBM dan energi, serta regulasi yang memengaruhi operasional armada.
 
-**Daftar utama:** [sources.json](sources.json) — satu-satunya file sumber yang dipelihara di repositori ini. Daftar awal memuat 18 sumber resmi, asosiasi, data, dan media industri. Temuan dari media dapat menjadi titik awal riset; verifikasi fakta penting pada dokumen, data, atau pihak asalnya.
+**Data utama:** [sources.json](sources.json) untuk sumber berita dan [product_catalog.json](product_catalog.json) untuk peta solusi, hardware, industri, serta ide awareness ban. Daftar awal memuat 18 sumber resmi, asosiasi, data, dan media industri. Temuan dari media dapat menjadi titik awal riset; verifikasi fakta penting pada dokumen, data, atau pihak asalnya.
 
 ## Daftar sumber
 
-Tabel ini dibuat otomatis dari `sources.json`, yaitu satu-satunya data utama. Edit daftar di file JSON; perubahan pada tabel akan menyusul setelah sinkronisasi berjalan.
+Tabel ini dibuat otomatis dari `sources.json`. Edit daftar di file JSON; perubahan pada tabel akan menyusul setelah sinkronisasi berjalan.
 
 <!-- sources-table:start -->
 | Sumber | Jenis | Topik | Prioritas | Tujuan konten | Status |
@@ -86,4 +86,71 @@ URL file JSON langsung:
 https://raw.githubusercontent.com/angxsupriyanto/content-idea-sources/main/sources.json
 ```
 
-Hermes perlu membaca URL ini kembali setiap kali memakai daftar agar perubahan terbaru tersedia. Repositori ini hanya menyimpan daftar sumber; tidak menyimpan salinan penuh artikel atau berita.
+Hermes perlu membaca URL ini kembali setiap kali memakai daftar agar perubahan terbaru tersedia. Repositori ini menyimpan daftar sumber dan katalog produk editorial; tidak menyimpan salinan penuh artikel atau berita.
+
+## Katalog produk McEasy
+
+[product_catalog.json](product_catalog.json) adalah data utama bagi Hermes untuk memetakan temuan berita ke solusi McEasy. Daftar perangkat per industri berasal dari diagram referensi yang diberikan tim. Relasi solusi dan perangkat adalah petunjuk editorial; cocokkan klaim ketersediaan, kompatibilitas, serta spesifikasi dengan tim produk sebelum dipublikasikan.
+
+### Solusi dan perangkat
+
+<!-- catalog-solutions:start -->
+| Solusi | Fungsi | Perangkat terkait |
+| --- | --- | --- |
+| Video Monitoring | Pemantauan video dan keselamatan perjalanan. | Dashcam, MDVR, Kamera Blind Spot, Kamera Belakang, ADAS, DMS |
+| Spare Part (Ban) | Pengadaan ban kendaraan; prioritas konten dan penawaran untuk ban truk dan bus. | — |
+| Fleet Management | Pelacakan armada dan pengelolaan operasional kendaraan. | GPS Tracker, GPS Portable, OBD 4G, RFID |
+| Delivery Hub | Portal pengiriman terintegrasi. | — |
+| Fuel Management | Pemantauan penggunaan dan stok BBM armada. | Fuel Level Sensor, iFuel ODO |
+| Delivery Management (TMS) | Pengelolaan order dan proses pengiriman. | — |
+| Report and Analytics | Laporan dan analisis operasional armada. | — |
+| Delivery Optimization | Perencanaan dan optimasi rute pengiriman. | — |
+| Maintenance Management | Perencanaan pemeliharaan dan perawatan kendaraan. | — |
+| Customer Management | Pengelolaan interaksi dan informasi untuk pelanggan. | — |
+| Driver Management | Pemantauan dan pengembangan kinerja pengemudi. | RFID, DMS |
+| Cost Management | Pencatatan dan analisis biaya operasional. | — |
+| Vendor Management | Pengelolaan mitra dan vendor. | — |
+| Open Ecosystem | Integrasi sistem melalui API. | — |
+| Control Tower | Tampilan pemantauan operasional lintas proses. | — |
+<!-- catalog-solutions:end -->
+
+### Aplikasi per industri
+
+Kolom perangkat mengikuti diagram referensi; industri yang juga ditandai untuk ban truk atau bus merupakan peluang konten editorial tambahan, bukan klaim bahwa ban muncul dalam diagram.
+
+<!-- catalog-industries:start -->
+| Industri | Perangkat pada diagram |
+| --- | --- |
+| Agrikultur | GPS Tracker, RFID, Fuel Level Sensor, iFuel ODO |
+| Pengangkutan B3 | GPS Tracker, GPS Portable, RFID, Dashcam, MDVR, iBuzzer, Fuel Level Sensor, Sensor Suhu, Sensor Pintu, iBeacon |
+| Rantai Dingin | GPS Tracker, GPS Portable, RFID, Dashcam, MDVR, iBuzzer, Fuel Level Sensor, Kamera Penghitung Penumpang, Kamera Blind Spot, iBeacon |
+| Cash Transit | Tombol SOS, Dashcam, iBuzzer, GPS Tracker, RFID, iFuel ODO, Sensor Pintu |
+| Migas | GPS Tracker, GPS Portable, RFID, MDVR, Kamera Blind Spot, Kamera Belakang, Fuel Level Sensor |
+| Bus dan Otobus | Kamera Penghitung Penumpang, Kamera Blind Spot, GPS Tracker, GPS Portable, RFID, Dashcam, iBuzzer, MDVR, Fuel Level Sensor |
+| Pertambangan dan Alat Berat | RFID, GPS Tracker, Dashcam, Sensor Power Take Off (PTO), iBeacon, ADAS, DMS, MDVR, OBD 4G, Kamera Belakang, Kamera Blind Spot, Fuel Level Sensor |
+| Logistik | GPS Tracker, GPS Portable, RFID, Dashcam, iBuzzer, MDVR, Fuel Level Sensor, Sensor Suhu, Sensor Pintu, iBeacon |
+<!-- catalog-industries:end -->
+
+### Ban dan ide awareness
+
+McEasy menyediakan ban mobil, truk, dan bus. Fokus konten dan penawaran di sini adalah ban truk serta ban bus. Ide berikut merupakan usulan topik, bukan klaim spesifikasi ban tertentu.
+
+<!-- catalog-tires:start -->
+| Kategori ban | Fokus | Ide awareness |
+| --- | --- | --- |
+| Ban Truk | utama | cara memilih ban truk sesuai rute dan beban; tekanan ban dan keselamatan armada; umur pakai dan inspeksi ban; biaya ban per kilometer; penyebab ban truk cepat aus; kapan ban truk perlu diganti |
+| Ban Bus | utama | pemilihan ban bus untuk rute antarkota dan pariwisata; pemeriksaan ban sebelum perjalanan; tekanan ban dan keselamatan penumpang; umur pakai dan jadwal penggantian; biaya ban per kilometer untuk operator bus |
+| Ban Mobil | pendukung | perawatan dan penggantian ban armada mobil |
+<!-- catalog-tires:end -->
+
+### Memperbarui katalog
+
+1. Edit [product_catalog.json](product_catalog.json) di GitHub. Gunakan `id` unik dan stabil untuk setiap solusi, perangkat, jenis ban, dan industri.
+2. Hubungkan industri serta solusi dengan `hardware_ids` dan `solution_ids` yang sudah ada. Untuk produk baru, tambahkan objek perangkat terlebih dahulu.
+3. Simpan perubahan melalui **Commit changes**. GitHub Actions memperbarui tabel README otomatis dari JSON.
+
+URL data langsung untuk Hermes:
+
+```text
+https://raw.githubusercontent.com/angxsupriyanto/content-idea-sources/main/product_catalog.json
+```
