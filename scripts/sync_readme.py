@@ -56,19 +56,55 @@ def render_table(sources):
     return "\n".join(lines)
 
 
+
+def render_catalog_tables(catalog):
+    solutions = catalog["solutions"]
+    hardware = catalog["hardware"]
+    industries = catalog["industry_applications"]
+    tires = catalog["spare_parts"]
+    for label, items in (("solusi", solutions), ("perangkat", hardware), ("industri", industries), ("ban", tires)):
+        ids = [item["id"] for item in items]
+        if len(ids) != len(set(ids)):
+            raise ValueError(f"Duplikat id {label}")
+    hardware_names = {item["id"]: item["name"] for item in hardware}
+    solution_ids = {item["id"] for item in solutions}
+    def device_names(ids):
+        return safe(", ".join(hardware_names[id] for id in ids) or "—")
+    sol_lines = ["| Solusi | Fungsi | Perangkat terkait |", "| --- | --- | --- |"]
+    for item in solutions:
+        sol_lines.append(f'| {safe(item["name"])} | {safe(item["description"])} | {device_names(item["hardware_ids"])} |')
+    ind_lines = ["| Industri | Perangkat pada diagram |", "| --- | --- |"]
+    for item in industries:
+        for solution_id in item["solution_ids"]:
+            if solution_id not in solution_ids:
+                raise ValueError(f"Solusi tidak ditemukan: {solution_id}")
+        ind_lines.append(f'| {safe(item["name"])} | {device_names(item["hardware_ids"])} |')
+    tire_lines = ["| Kategori ban | Fokus | Ide awareness |", "| --- | --- | --- |"]
+    for item in tires:
+        tire_lines.append(f'| {safe(item["name"])} | {safe(item["priority"])} | {safe("; ".join(item["awareness_topics"]))} |')
+    return {"catalog-solutions": "\n".join(sol_lines), "catalog-industries": "\n".join(ind_lines), "catalog-tires": "\n".join(tire_lines)}
+
+
+def replace_table(readme, marker, table):
+    start, end = f"<!-- {marker}:start -->", f"<!-- {marker}:end -->"
+    if readme.count(start) != 1 or readme.count(end) != 1:
+        raise ValueError(f"README harus memiliki satu pasang penanda {marker}")
+    before, remainder = readme.split(start, 1)
+    _, after = remainder.split(end, 1)
+    return before + start + "\n" + table + "\n" + end + after
+
 def main():
     root = Path(__file__).resolve().parents[1]
     sources = json.loads((root / "sources.json").read_text(encoding="utf-8"))["sources"]
     readme_path = root / "README.md"
     readme = readme_path.read_text(encoding="utf-8")
-    if readme.count(START) != 1 or readme.count(END) != 1:
-        raise ValueError("README harus memiliki satu pasang penanda tabel sumber")
-    before, remainder = readme.split(START, 1)
-    _, after = remainder.split(END, 1)
-    refreshed = before + START + "\n" + render_table(sources) + "\n" + END + after
+    refreshed = replace_table(readme, "sources-table", render_table(sources))
+    catalog = json.loads((root / "product_catalog.json").read_text(encoding="utf-8"))
+    for marker, table in render_catalog_tables(catalog).items():
+        refreshed = replace_table(refreshed, marker, table)
     if refreshed != readme:
         readme_path.write_text(refreshed, encoding="utf-8")
-    print(f"Tabel README sesuai dengan {len(sources)} sumber")
+    print(f"Tabel README sesuai dengan {len(sources)} sumber dan katalog produk")
 
 
 if __name__ == "__main__":
