@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "description": "Peta solusi, perangkat, dan aplikasi industri untuk riset ide konten McEasy. Keterkaitan adalah petunjuk editorial, bukan janji kompatibilitas atau ketersediaan produk.",
+  "references": [
+    "https://www.mceasy.com/solusi/",
+    "https://www.mceasy.com/solusi/spare-part/",
+    "https://www.mceasy.com/layanan/",
+    "diagram industri yang diberikan pengguna"
+  ],
+  "solutions": [
+    {
+      "id": "video-monitoring",
+      "name": "Video Monitoring",
+      "description": "Pemantauan video dan keselamatan perjalanan.",
+      "hardware_ids": [
+        "dashcam",
+        "mdvr",
+        "blind-spot-camera",
+        "rear-camera",
+        "adas",
+        "dms"
+      ],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "spare-part",
+      "name": "Spare Part (Ban)",
+      "description": "Pengadaan ban kendaraan; prioritas konten dan penawaran untuk ban truk dan bus.",
+      "hardware_ids": [],
+      "reference_url": "https://www.mceasy.com/solusi/spare-part/"
+    },
+    {
+      "id": "fleet-management",
+      "name": "Fleet Management",
+      "description": "Pelacakan armada dan pengelolaan operasional kendaraan.",
+      "hardware_ids": [
+        "gps-tracker",
+        "gps-portable",
+        "obd-4g",
+        "rfid"
+      ],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "delivery-hub",
+      "name": "Delivery Hub",
+      "description": "Portal pengiriman terintegrasi.",
+      "hardware_ids": [],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "fuel-management",
+      "name": "Fuel Management",
+      "description": "Pemantauan penggunaan dan stok BBM armada.",
+      "hardware_ids": [
+        "fuel-level-sensor",
+        "ifuel-odo"
+      ],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "delivery-management",
+      "name": "Delivery Management (TMS)",
+      "description": "Pengelolaan order dan proses pengiriman.",
+      "hardware_ids": [],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "report-analytics",
+      "name": "Report and Analytics",
+      "description": "Laporan dan analisis operasional armada.",
+      "hardware_ids": [],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "delivery-optimization",
+      "name": "Delivery Optimization",
+      "description": "Perencanaan dan optimasi rute pengiriman.",
+      "hardware_ids": [],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "maintenance-management",
+      "name": "Maintenance Management",
+      "description": "Perencanaan pemeliharaan dan perawatan kendaraan.",
+      "hardware_ids": [],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "customer-management",
+      "name": "Customer Management",
+      "description": "Pengelolaan interaksi dan informasi untuk pelanggan.",
+      "hardware_ids": [],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "driver-management",
+      "name": "Driver Management",
+      "description": "Pemantauan dan pengembangan kinerja pengemudi.",
+      "hardware_ids": [
+        "rfid",
+        "dms"
+      ],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "cost-management",
+      "name": "Cost Management",
+      "description": "Pencatatan dan analisis biaya operasional.",
+      "hardware_ids": [],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "vendor-management",
+      "name": "Vendor Management",
+      "description": "Pengelolaan mitra dan vendor.",
+      "hardware_ids": [],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "open-ecosystem",
+      "name": "Open Ecosystem",
+      "description": "Integrasi sistem melalui API.",
+      "hardware_ids": [],
+      "reference_url": "https://www.mceasy.com/solusi/"
+    },
+    {
+      "id": "control-tower",
+      "name": "Control Tower",
+      "description": "Tampilan pemantauan operasional lintas proses.",
+      "hardware_ids": [],
+      "reference_url": "https://www.mceasy.com/layanan/"
+    }
+  ],
+  "hardware": [
+    {
+      "id": "gps-tracker",
+      "name": "GPS Tracker",
+      "variants": [
+        "Easy Track"
+      ],
+      "solution_ids": [
+        "fleet-management"
+      ]
+    },
+    {
+      "id": "gps-portable",
+      "name": "GPS Portable",
+      "variants": [
+        "Easy GPS Portable"
+      ],
+      "solution_ids": [
+        "fleet-management"
+      ]
+    },
+    {
+      "id": "obd-4g",
+      "name": "OBD 4G",
+      "variants": [
+        "OBD"
+      ],
+      "solution_ids": [
+        "fleet-management"
+      ]
+    },
+    {
+      "id": "dashcam",
+      "name": "Dashcam",
+      "variants": [
+        "TrackVision",
+        "TrackVision Pro 4X"
+      ],
+      "solution_ids": [
+        "video-monitoring"
+      ]
+    },
+    {
+      "id": "mdvr",
+      "name": "MDVR",
+      "variants": [
+        "MDVR 4 Channel",
+        "MDVR 8 Channel"
+      ],
+      "solution_ids": [
+        "video-monitoring"
+      ]
+    },
+    {
+      "id": "fuel-level-sensor",
+      "name": "Fuel Level Sensor",
+      "variants": [
+        "iFuel Ultrasonic",
+        "iFuel Stick"
+      ],
+      "solution_ids": [
+        "fuel-management"
+      ]
+    },
+    {
+      "id": "ifuel-odo",
+      "name": "iFuel ODO",
+      "variants": [],
+      "solution_ids": [
+        "fuel-management"
+      ]
+    },
+    {
+      "id": "temperature-sensor",
+      "name": "Sensor Suhu",
+      "variants": [
+        "iTemp"
+      ],
+      "solution_ids": [
+        "fleet-management"
+      ]
+    },
+    {
+      "id": "door-sensor",
+      "name": "Sensor Pintu",
+      "variants": [
+        "iDoor"
+      ],
+      "solution_ids": [
+        "fleet-management"
+      ]
+    },
+    {
+      "id": "pto-sensor",
+      "name": "Sensor Power Take Off (PTO)",
+      "variants": [
+        "PTO"
+      ],
+      "solution_ids": [
+        "fleet-management"
+      ]
+    },
+    {
+      "id": "rfid",
+      "name": "RFID",
+      "variants": [],
+      "solution_ids": [
+        "fleet-management",
+        "driver-management"
+      ]
+    },
+    {
+      "id": "blind-spot-camera",
+      "name": "Kamera Blind Spot",
+      "variants": [],
+      "solution_ids": [
+        "video-monitoring"
+      ]
+    },
+    {
+      "id": "rear-camera",
+      "name": "Kamera Belakang",
+      "variants": [],
+      "solution_ids": [
+        "video-monitoring"
+      ]
+    },
+    {
+      "id": "passenger-counting-camera",
+      "name": "Kamera Penghitung Penumpang",
+      "variants": [],
+      "solution_ids": [
+        "video-monitoring"
+      ]
+    },
+    {
+      "id": "ibuzzer",
+      "name": "iBuzzer",
+      "variants": [],
+      "solution_ids": [
+        "video-monitoring"
+      ]
+    },
+    {
+      "id": "ibeacon",
+      "name": "iBeacon",
+      "variants": [],
+      "solution_ids": [
+        "fleet-management"
+      ]
+    },
+    {
+      "id": "sos-button",
+      "name": "Tombol SOS",
+      "variants": [],
+      "solution_ids": [
+        "fleet-management"
+      ]
+    },
+    {
+      "id": "adas",
+      "name": "ADAS",
+      "variants": [],
+      "solution_ids": [
+        "video-monitoring"
+      ]
+    },
+    {
+      "id": "dms",
+      "name": "DMS",
+      "variants": [],
+      "solution_ids": [
+        "video-monitoring",
+        "driver-management"
+      ]
+    }
+  ],
+  "spare_parts": [
+    {
+      "id": "ban-truk",
+      "name": "Ban Truk",
+      "vehicle_types": [
+        "truk"
+      ],
+      "priority": "utama",
+      "content_goals": [
+        "awareness",
+        "acquisition"
+      ],
+      "awareness_topics": [
+        "cara memilih ban truk sesuai rute dan beban",
+        "tekanan ban dan keselamatan armada",
+        "umur pakai dan inspeksi ban",
+        "biaya ban per kilometer",
+        "penyebab ban truk cepat aus",
+        "kapan ban truk perlu diganti"
+      ]
+    },
+    {
+      "id": "ban-bus",
+      "name": "Ban Bus",
+      "vehicle_types": [
+        "bus"
+      ],
+      "priority": "utama",
+      "content_goals": [
+        "awareness",
+        "acquisition"
+      ],
+      "awareness_topics": [
+        "pemilihan ban bus untuk rute antarkota dan pariwisata",
+        "pemeriksaan ban sebelum perjalanan",
+        "tekanan ban dan keselamatan penumpang",
+        "umur pakai dan jadwal penggantian",
+        "biaya ban per kilometer untuk operator bus"
+      ]
+    },
+    {
+      "id": "ban-mobil",
+      "name": "Ban Mobil",
+      "vehicle_types": [
+        "mobil"
+      ],
+      "priority": "pendukung",
+      "content_goals": [
+        "awareness",
+        "acquisition"
+      ],
+      "awareness_topics": [
+        "perawatan dan penggantian ban armada mobil"
+      ]
+    }
+  ],
+  "industry_applications": [
+    {
+      "id": "agrikultur",
+      "name": "Agrikultur",
+      "hardware_ids": [
+        "gps-tracker",
+        "rfid",
+        "fuel-level-sensor",
+        "ifuel-odo"
+      ],
+      "solution_ids": [
+        "fleet-management",
+        "fuel-management"
+      ],
+      "evidence": "diagram industri yang diberikan pengguna; relasi solusi berupa pengelompokan editorial, bukan spesifikasi paket"
+    },
+    {
+      "id": "limbah-b3",
+      "name": "Pengangkutan B3",
+      "hardware_ids": [
+        "gps-tracker",
+        "gps-portable",
+        "rfid",
+        "dashcam",
+        "mdvr",
+        "ibuzzer",
+        "fuel-level-sensor",
+        "temperature-sensor",
+        "door-sensor",
+        "ibeacon"
+      ],
+      "solution_ids": [
+        "fleet-management",
+        "video-monitoring",
+        "fuel-management"
+      ],
+      "evidence": "diagram industri yang diberikan pengguna; relasi solusi berupa pengelompokan editorial, bukan spesifikasi paket"
+    },
+    {
+      "id": "rantai-dingin",
+      "name": "Rantai Dingin",
+      "hardware_ids": [
+        "gps-tracker",
+        "gps-portable",
+        "rfid",
+        "dashcam",
+        "mdvr",
+        "ibuzzer",
+        "fuel-level-sensor",
+        "passenger-counting-camera",
+        "blind-spot-camera",
+        "ibeacon"
+      ],
+      "solution_ids": [
+        "fleet-management",
+        "video-monitoring",
+        "fuel-management",
+        "delivery-management"
+      ],
+      "evidence": "diagram industri yang diberikan pengguna; relasi solusi berupa pengelompokan editorial, bukan spesifikasi paket"
+    },
+    {
+      "id": "cash-transit",
+      "name": "Cash Transit",
+      "hardware_ids": [
+        "sos-button",
+        "dashcam",
+        "ibuzzer",
+        "gps-tracker",
+        "rfid",
+        "ifuel-odo",
+        "door-sensor"
+      ],
+      "solution_ids": [
+        "fleet-management",
+        "video-monitoring"
+      ],
+      "evidence": "diagram industri yang diberikan pengguna; relasi solusi berupa pengelompokan editorial, bukan spesifikasi paket"
+    },
+    {
+      "id": "migas",
+      "name": "Migas",
+      "hardware_ids": [
+        "gps-tracker",
+        "gps-portable",
+        "rfid",
+        "mdvr",
+        "blind-spot-camera",
+        "rear-camera",
+        "fuel-level-sensor"
+      ],
+      "solution_ids": [
+        "fleet-management",
+        "video-monitoring",
+        "fuel-management"
+      ],
+      "evidence": "diagram industri yang diberikan pengguna; relasi solusi berupa pengelompokan editorial, bukan spesifikasi paket"
+    },
+    {
+      "id": "bus",
+      "name": "Bus dan Otobus",
+      "hardware_ids": [
+        "passenger-counting-camera",
+        "blind-spot-camera",
+        "gps-tracker",
+        "gps-portable",
+        "rfid",
+        "dashcam",
+        "ibuzzer",
+        "mdvr",
+        "fuel-level-sensor"
+      ],
+      "solution_ids": [
+        "fleet-management",
+        "video-monitoring",
+        "fuel-management",
+        "spare-part"
+      ],
+      "evidence": "diagram industri yang diberikan pengguna; relasi solusi berupa pengelompokan editorial, bukan spesifikasi paket"
+    },
+    {
+      "id": "tambang",
+      "name": "Pertambangan dan Alat Berat",
+      "hardware_ids": [
+        "rfid",
+        "gps-tracker",
+        "dashcam",
+        "pto-sensor",
+        "ibeacon",
+        "adas",
+        "dms",
+        "mdvr",
+        "obd-4g",
+        "rear-camera",
+        "blind-spot-camera",
+        "fuel-level-sensor"
+      ],
+      "solution_ids": [
+        "fleet-management",
+        "video-monitoring",
+        "fuel-management"
+      ],
+      "evidence": "diagram industri yang diberikan pengguna; relasi solusi berupa pengelompokan editorial, bukan spesifikasi paket"
+    },
+    {
+      "id": "logistik",
+      "name": "Logistik",
+      "hardware_ids": [
+        "gps-tracker",
+        "gps-portable",
+        "rfid",
+        "dashcam",
+        "ibuzzer",
+        "mdvr",
+        "fuel-level-sensor",
+        "temperature-sensor",
+        "door-sensor",
+        "ibeacon"
+      ],
+      "solution_ids": [
+        "fleet-management",
+        "video-monitoring",
+        "fuel-management",
+        "spare-part"
+      ],
+      "evidence": "diagram industri yang diberikan pengguna; relasi solusi berupa pengelompokan editorial, bukan spesifikasi paket"
+    }
+  ]
+}
