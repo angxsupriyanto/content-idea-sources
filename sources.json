@@ -21,7 +21,11 @@
           "purpose": "berita_dan_siaran_pers"
         }
       ],
-      "keywords": [],
+      "keywords": [
+        "angkutan barang",
+        "ODOL",
+        "keselamatan pengemudi"
+      ],
       "notes": "Siaran pers, angkutan barang, ODOL, keselamatan; cek naskah aturan di JDIH."
     },
     {
@@ -44,7 +48,11 @@
           "purpose": "berita_dan_siaran_pers"
         }
       ],
-      "keywords": [],
+      "keywords": [
+        "biodiesel",
+        "B50",
+        "BBM"
+      ],
       "notes": "Biodiesel, energi dan pengujian; pisahkan target kebijakan dari implementasi."
     },
     {
@@ -66,7 +74,10 @@
           "purpose": "berita"
         }
       ],
-      "keywords": [],
+      "keywords": [
+        "penyaluran BBM",
+        "solar"
+      ],
       "notes": "Distribusi dan pengawasan BBM."
     },
     {
@@ -136,7 +147,11 @@
           "purpose": "berita_asosiasi"
         }
       ],
-      "keywords": [],
+      "keywords": [
+        "truk",
+        "biaya logistik",
+        "ODOL"
+      ],
       "notes": "Pandangan dan pengumuman asosiasi pengusaha truk; klaim kebijakan cek ke regulator."
     },
     {
