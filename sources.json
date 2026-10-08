@@ -1,9 +1,18 @@
 {
   "sources": [
     {
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
       "id": "ditjen-hubdat",
+      "keywords": [
+        "angkutan barang",
+        "ODOL",
+        "keselamatan pengemudi"
+      ],
       "name": "Ditjen Perhubungan Darat",
-      "type": "regulator",
+      "notes": "Siaran pers, angkutan barang, ODOL, keselamatan; cek naskah aturan di JDIH.",
       "priority": "high",
       "status": "active",
       "topics": [
@@ -11,102 +20,99 @@
         "regulasi",
         "keselamatan_armada"
       ],
+      "type": "regulator",
+      "urls": [
+        {
+          "purpose": "berita_dan_siaran_pers",
+          "url": "https://hubdat.dephub.go.id/id/publikasi/"
+        }
+      ]
+    },
+    {
       "content_goal": [
         "awareness",
         "acquisition"
       ],
-      "urls": [
-        {
-          "url": "https://hubdat.dephub.go.id/id/publikasi/",
-          "purpose": "berita_dan_siaran_pers"
-        }
-      ],
-      "keywords": [
-        "angkutan barang",
-        "ODOL",
-        "keselamatan pengemudi"
-      ],
-      "notes": "Siaran pers, angkutan barang, ODOL, keselamatan; cek naskah aturan di JDIH."
-    },
-    {
       "id": "kementerian-esdm",
+      "keywords": [
+        "biodiesel",
+        "B50",
+        "BBM"
+      ],
       "name": "Kementerian ESDM",
-      "type": "regulator",
+      "notes": "Biodiesel, energi dan pengujian; pisahkan target kebijakan dari implementasi.",
       "priority": "high",
       "status": "active",
       "topics": [
         "bbm_energi",
         "pertambangan_alat_berat"
       ],
+      "type": "regulator",
+      "urls": [
+        {
+          "purpose": "berita_dan_siaran_pers",
+          "url": "https://www.esdm.go.id/id/media-center/arsip-berita"
+        }
+      ]
+    },
+    {
       "content_goal": [
         "awareness",
         "acquisition"
       ],
-      "urls": [
-        {
-          "url": "https://www.esdm.go.id/id/media-center/arsip-berita",
-          "purpose": "berita_dan_siaran_pers"
-        }
-      ],
-      "keywords": [
-        "biodiesel",
-        "B50",
-        "BBM"
-      ],
-      "notes": "Biodiesel, energi dan pengujian; pisahkan target kebijakan dari implementasi."
-    },
-    {
       "id": "bph-migas",
+      "keywords": [
+        "penyaluran BBM",
+        "solar"
+      ],
       "name": "BPH Migas",
-      "type": "regulator",
+      "notes": "Distribusi dan pengawasan BBM.",
       "priority": "high",
       "status": "active",
       "topics": [
         "bbm_energi"
       ],
+      "type": "regulator",
+      "urls": [
+        {
+          "purpose": "berita",
+          "url": "https://www.bphmigas.go.id/berita/"
+        }
+      ],
+      "rss_url": "https://www.bphmigas.go.id/feed"
+    },
+    {
       "content_goal": [
         "awareness",
         "acquisition"
       ],
-      "urls": [
-        {
-          "url": "https://www.bphmigas.go.id/berita/",
-          "purpose": "berita"
-        }
-      ],
-      "keywords": [
-        "penyaluran BBM",
-        "solar"
-      ],
-      "notes": "Distribusi dan pengawasan BBM."
-    },
-    {
       "id": "jdih-kemenhub",
+      "keywords": [],
       "name": "JDIH Kemenhub",
-      "type": "dokumen_hukum",
+      "notes": "Periksa status, tanggal berlaku, dan isi pasal; tidak selalu berisi berita baru.",
       "priority": "high",
       "status": "active",
       "topics": [
         "regulasi",
         "transportasi_logistik"
       ],
+      "type": "dokumen_hukum",
+      "urls": [
+        {
+          "purpose": "peraturan",
+          "url": "https://jdih.dephub.go.id/peraturan/index"
+        }
+      ]
+    },
+    {
       "content_goal": [
         "awareness",
         "acquisition"
       ],
-      "urls": [
-        {
-          "url": "https://jdih.dephub.go.id/peraturan/index",
-          "purpose": "peraturan"
-        }
-      ],
-      "keywords": [],
-      "notes": "Periksa status, tanggal berlaku, dan isi pasal; tidak selalu berisi berita baru."
-    },
-    {
       "id": "jdih-esdm",
+      "keywords": [],
       "name": "JDIH ESDM",
-      "type": "dokumen_hukum",
+      "notes": "Periksa dokumen peraturan asli dan status berlakunya.",
       "priority": "high",
       "status": "active",
       "topics": [
@@ -114,247 +120,357 @@
         "bbm_energi",
         "pertambangan_alat_berat"
       ],
+      "type": "dokumen_hukum",
+      "urls": [
+        {
+          "purpose": "peraturan",
+          "url": "https://jdih.esdm.go.id/"
+        }
+      ]
+    },
+    {
       "content_goal": [
         "awareness",
         "acquisition"
       ],
-      "urls": [
-        {
-          "url": "https://jdih.esdm.go.id/",
-          "purpose": "peraturan"
-        }
-      ],
-      "keywords": [],
-      "notes": "Periksa dokumen peraturan asli dan status berlakunya."
-    },
-    {
       "id": "aptrindo",
+      "keywords": [
+        "truk",
+        "biaya logistik",
+        "ODOL"
+      ],
       "name": "APTRINDO—News",
-      "type": "asosiasi",
+      "notes": "Pandangan dan pengumuman asosiasi pengusaha truk; klaim kebijakan cek ke regulator.",
       "priority": "high",
       "status": "active",
       "topics": [
         "transportasi_logistik",
         "kendaraan_niaga"
       ],
-      "content_goal": [
-        "awareness",
-        "acquisition"
-      ],
+      "type": "asosiasi",
       "urls": [
         {
-          "url": "https://aptrindo.id/news/",
-          "purpose": "berita_asosiasi"
+          "purpose": "berita_asosiasi",
+          "url": "https://aptrindo.id/news/"
         }
       ],
-      "keywords": [
-        "truk",
-        "biaya logistik",
-        "ODOL"
-      ],
-      "notes": "Pandangan dan pengumuman asosiasi pengusaha truk; klaim kebijakan cek ke regulator."
+      "rss_url": "https://aptrindo.id/feed/"
     },
     {
+      "content_goal": [
+        "awareness"
+      ],
       "id": "knkt-llaj",
+      "keywords": [],
       "name": "KNKT—LLAJ",
-      "type": "investigasi",
+      "notes": "Temuan dan rekomendasi investigasi kecelakaan jalan.",
       "priority": "high",
       "status": "active",
       "topics": [
         "keselamatan_armada",
         "transportasi_logistik"
       ],
-      "content_goal": [
-        "awareness"
-      ],
+      "type": "investigasi",
       "urls": [
         {
-          "url": "https://knkt.go.id/subkomite/llaj",
-          "purpose": "laporan_investigasi"
+          "purpose": "laporan_investigasi",
+          "url": "https://knkt.go.id/subkomite/llaj"
         }
-      ],
-      "keywords": [],
-      "notes": "Temuan dan rekomendasi investigasi kecelakaan jalan."
+      ]
     },
     {
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
       "id": "ditjen-bina-marga",
+      "keywords": [],
       "name": "Ditjen Bina Marga",
-      "type": "infrastruktur",
+      "notes": "Jalan nasional, jembatan, gangguan rute.",
       "priority": "medium",
       "status": "active",
       "topics": [
         "transportasi_logistik"
       ],
+      "type": "infrastruktur",
+      "urls": [
+        {
+          "purpose": "berita",
+          "url": "https://binamarga.pu.go.id/berita"
+        }
+      ]
+    },
+    {
       "content_goal": [
         "awareness",
         "acquisition"
       ],
-      "urls": [
-        {
-          "url": "https://binamarga.pu.go.id/berita",
-          "purpose": "berita"
-        }
-      ],
-      "keywords": [],
-      "notes": "Jalan nasional, jembatan, gangguan rute."
-    },
-    {
       "id": "bpjt",
+      "keywords": [],
       "name": "BPJT",
-      "type": "infrastruktur",
+      "notes": "Jalan tol, akses dan perubahan infrastruktur.",
       "priority": "medium",
       "status": "active",
       "topics": [
         "transportasi_logistik"
       ],
+      "type": "infrastruktur",
+      "urls": [
+        {
+          "purpose": "berita",
+          "url": "https://bpjt.pu.go.id/berita/"
+        }
+      ],
+      "rss_url": "https://bpjt.pu.go.id/feed/"
+    },
+    {
       "content_goal": [
         "awareness",
         "acquisition"
       ],
-      "urls": [
-        {
-          "url": "https://bpjt.pu.go.id/berita/",
-          "purpose": "berita"
-        }
-      ],
-      "keywords": [],
-      "notes": "Jalan tol, akses dan perubahan infrastruktur."
-    },
-    {
       "id": "korlantas-polri",
+      "keywords": [],
       "name": "Korlantas Polri",
-      "type": "penegak_hukum",
+      "notes": "Penegakan aturan dan kondisi lalu lintas; cek dasar hukumnya.",
       "priority": "medium",
       "status": "active",
       "topics": [
         "regulasi",
         "keselamatan_armada"
       ],
-      "content_goal": [
-        "awareness",
-        "acquisition"
-      ],
+      "type": "penegak_hukum",
       "urls": [
         {
-          "url": "https://korlantas.polri.go.id/",
-          "purpose": "berita"
+          "purpose": "berita",
+          "url": "https://korlantas.polri.go.id/"
         }
-      ],
-      "keywords": [],
-      "notes": "Penegakan aturan dan kondisi lalu lintas; cek dasar hukumnya."
+      ]
     },
     {
+      "content_goal": [
+        "awareness"
+      ],
       "id": "bps-transportasi",
+      "keywords": [],
       "name": "BPS—Statistik Transportasi",
-      "type": "data",
+      "notes": "Data untuk konteks dan artikel evergreen; frekuensi bukan harian.",
       "priority": "supporting",
       "status": "active",
       "topics": [
         "transportasi_logistik"
       ],
-      "content_goal": [
-        "awareness"
-      ],
+      "type": "data",
       "urls": [
         {
-          "url": "https://www.bps.go.id/id/statistics-table?subject=560",
-          "purpose": "statistik"
+          "purpose": "statistik",
+          "url": "https://www.bps.go.id/id/statistics-table?subject=560"
         }
-      ],
-      "keywords": [],
-      "notes": "Data untuk konteks dan artikel evergreen; frekuensi bukan harian."
+      ]
     },
     {
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
       "id": "ditjen-minerba",
+      "keywords": [],
       "name": "Ditjen Minerba",
-      "type": "regulator",
+      "notes": "Situs terpantau dalam perbaikan pada 27 Sep 2026; gunakan ESDM dan JDIH sebagai cadangan.",
       "priority": "monitor",
       "status": "monitor",
       "topics": [
         "pertambangan_alat_berat"
       ],
+      "type": "regulator",
+      "urls": [
+        {
+          "purpose": "berita",
+          "url": "https://www.minerba.esdm.go.id/"
+        }
+      ]
+    },
+    {
+      "content_goal": [
+        "awareness"
+      ],
+      "id": "kompas-otomotif-niaga",
+      "keywords": [],
+      "name": "Kompas Otomotif—Niaga",
+      "notes": "Truk, bus, pengemudi, kendaraan niaga; verifikasi klaim ke sumber asli. Domain diblokir policy sejak 8 Okt 2026; digantikan oleh mounture-komersial.",
+      "priority": "monitor",
+      "status": "monitor",
+      "topics": [
+        "kendaraan_niaga",
+        "teknologi_armada"
+      ],
+      "type": "media",
+      "urls": [
+        {
+          "purpose": "liputan_industri",
+          "url": "https://otomotif.kompas.com/niaga"
+        }
+      ]
+    },
+    {
+      "content_goal": [
+        "awareness"
+      ],
+      "id": "detikoto-kendaraan-niaga",
+      "keywords": [],
+      "name": "detikOto—Kendaraan Niaga",
+      "notes": "Produk, operator, pengemudi dan isu industri; cek sumber kutipan. Domain diblokir policy sejak 8 Okt 2026; digantikan oleh transportasi-media.",
+      "priority": "monitor",
+      "status": "monitor",
+      "topics": [
+        "kendaraan_niaga",
+        "teknologi_armada"
+      ],
+      "type": "media",
+      "urls": [
+        {
+          "purpose": "liputan_industri",
+          "url": "https://oto.detik.com/kendaraan-niaga"
+        }
+      ]
+    },
+    {
       "content_goal": [
         "awareness",
         "acquisition"
       ],
-      "urls": [
-        {
-          "url": "https://www.minerba.esdm.go.id/",
-          "purpose": "berita"
-        }
-      ],
-      "keywords": [],
-      "notes": "Situs terpantau dalam perbaikan pada 27 Sep 2026; gunakan ESDM dan JDIH sebagai cadangan."
-    },
-    {
-      "id": "kompas-otomotif-niaga",
-      "name": "Kompas Otomotif—Niaga",
-      "type": "media",
-      "priority": "high",
-      "status": "active",
-      "topics": [
-        "kendaraan_niaga",
-        "teknologi_armada"
-      ],
-      "content_goal": [
-        "awareness"
-      ],
-      "urls": [
-        {
-          "url": "https://otomotif.kompas.com/niaga",
-          "purpose": "liputan_industri"
-        }
-      ],
-      "keywords": [],
-      "notes": "Truk, bus, pengemudi, kendaraan niaga; verifikasi klaim ke sumber asli."
-    },
-    {
-      "id": "detikoto-kendaraan-niaga",
-      "name": "detikOto—Kendaraan Niaga",
-      "type": "media",
-      "priority": "high",
-      "status": "active",
-      "topics": [
-        "kendaraan_niaga",
-        "teknologi_armada"
-      ],
-      "content_goal": [
-        "awareness"
-      ],
-      "urls": [
-        {
-          "url": "https://oto.detik.com/kendaraan-niaga",
-          "purpose": "liputan_industri"
-        }
-      ],
-      "keywords": [],
-      "notes": "Produk, operator, pengemudi dan isu industri; cek sumber kutipan."
-    },
-    {
       "id": "logistik-news",
+      "keywords": [],
       "name": "Logistik News—Transportasi & Logistik",
+      "notes": "Trucking, asosiasi, pelabuhan dan kendala distribusi.",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "transportasi_logistik"
+      ],
+      "type": "media_industri",
+      "urls": [
+        {
+          "purpose": "liputan_industri",
+          "url": "https://www.logistiknews.id/topic/transportasi-logistik/"
+        }
+      ]
+    },
+    {
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "id": "bisnis-transportasi-logistik",
+      "keywords": [],
+      "name": "Bisnis.com—Transportasi & Logistik",
+      "notes": "Cakupan banyak moda; saring ketat untuk operasional armada darat. Domain diblokir policy sejak 8 Okt 2026; digantikan oleh investor-daily.",
+      "priority": "monitor",
+      "status": "monitor",
+      "topics": [
+        "transportasi_logistik"
+      ],
+      "type": "media",
+      "urls": [
+        {
+          "purpose": "liputan_industri",
+          "url": "https://ekonomi.bisnis.com/transportasi-logistik"
+        }
+      ]
+    },
+    {
+      "content_goal": [
+        "awareness",
+        "acquisition"
+      ],
+      "id": "antara-ekonomi-bisnis",
+      "keywords": [],
+      "name": "ANTARA—Ekonomi/Bisnis",
+      "notes": "Rubrik luas; cari kata kunci armada, logistik, BBM, tambang; cek rilis asal. Domain diblokir policy sejak 8 Okt 2026; digantikan oleh holopis.",
+      "priority": "monitor",
+      "status": "monitor",
+      "topics": [
+        "ekonomi",
+        "transportasi_logistik",
+        "bbm_energi"
+      ],
+      "type": "kantor_berita",
+      "urls": [
+        {
+          "purpose": "liputan_ekonomi",
+          "url": "https://www.antaranews.com/ekonomi/bisnis"
+        }
+      ]
+    },
+    {
+      "content_goal": [
+        "awareness"
+      ],
+      "id": "petromindo",
+      "keywords": [],
+      "name": "Petromindo",
+      "notes": "Dinamika pertambangan; sebagian konten mungkin berbayar.",
+      "priority": "medium",
+      "status": "active",
+      "topics": [
+        "pertambangan_alat_berat"
+      ],
+      "type": "media_industri",
+      "urls": [
+        {
+          "purpose": "liputan_industri",
+          "url": "https://www.petromindo.com/"
+        }
+      ]
+    },
+    {
+      "id": "mounture-komersial",
+      "name": "Oto Mounture—Komersial",
+      "type": "media",
+      "priority": "high",
+      "status": "active",
+      "topics": [
+        "kendaraan_niaga",
+        "teknologi_armada"
+      ],
+      "content_goal": [
+        "awareness"
+      ],
+      "urls": [
+        {
+          "url": "https://oto.mounture.com/komersial/",
+          "purpose": "liputan_industri"
+        }
+      ],
+      "keywords": [],
+      "notes": "Pengganti Kompas Otomotif—Niaga (domain diblokir policy, 8 Okt 2026). Rubrik khusus kendaraan komersial: truk, bus, kendaraan niaga; verifikasi klaim ke sumber asli.",
+      "rss_url": "https://oto.mounture.com/feed/"
+    },
+    {
+      "id": "transportasi-media",
+      "name": "Transportasi Media Indonesia",
       "type": "media_industri",
       "priority": "high",
       "status": "active",
       "topics": [
-        "transportasi_logistik"
+        "kendaraan_niaga",
+        "teknologi_armada"
       ],
       "content_goal": [
-        "awareness",
-        "acquisition"
+        "awareness"
       ],
       "urls": [
         {
-          "url": "https://www.logistiknews.id/topic/transportasi-logistik/",
+          "url": "https://transportasimedia.com/",
           "purpose": "liputan_industri"
         }
       ],
       "keywords": [],
-      "notes": "Trucking, asosiasi, pelabuhan dan kendala distribusi."
+      "notes": "Pengganti detikOto—Kendaraan Niaga (domain diblokir policy, 8 Okt 2026). Media transportasi: produk, operator, pengemudi dan isu industri; cek sumber kutipan.",
+      "rss_url": "https://transportasimedia.com/rss"
     },
     {
-      "id": "bisnis-transportasi-logistik",
-      "name": "Bisnis.com—Transportasi & Logistik",
+      "id": "investor-daily",
+      "name": "Investor Daily",
       "type": "media",
       "priority": "high",
       "status": "active",
@@ -367,17 +483,18 @@
       ],
       "urls": [
         {
-          "url": "https://ekonomi.bisnis.com/transportasi-logistik",
+          "url": "https://investor.id/",
           "purpose": "liputan_industri"
         }
       ],
       "keywords": [],
-      "notes": "Cakupan banyak moda; saring ketat untuk operasional armada darat."
+      "notes": "Pengganti Bisnis.com—Transportasi & Logistik (domain diblokir policy, 8 Okt 2026). Media bisnis nasional; saring ketat untuk operasional armada darat.",
+      "rss_url": "https://investor.id/feed"
     },
     {
-      "id": "antara-ekonomi-bisnis",
-      "name": "ANTARA—Ekonomi/Bisnis",
-      "type": "kantor_berita",
+      "id": "holopis",
+      "name": "Holopis.com",
+      "type": "media",
       "priority": "medium",
       "status": "active",
       "topics": [
@@ -391,33 +508,41 @@
       ],
       "urls": [
         {
-          "url": "https://www.antaranews.com/ekonomi/bisnis",
+          "url": "https://holopis.com/",
           "purpose": "liputan_ekonomi"
         }
       ],
       "keywords": [],
-      "notes": "Rubrik luas; cari kata kunci armada, logistik, BBM, tambang; cek rilis asal."
+      "notes": "Pengganti ANTARA—Ekonomi/Bisnis (domain diblokir policy, 8 Okt 2026). Portal nasional terverifikasi Dewan Pers, rubrik luas; cari kata kunci armada, logistik, BBM, tambang; cek rilis asal.",
+      "rss_url": "https://holopis.com/feed/"
     },
     {
-      "id": "petromindo",
-      "name": "Petromindo",
+      "id": "supplychain-indonesia",
+      "name": "Supply Chain Indonesia",
       "type": "media_industri",
       "priority": "medium",
       "status": "active",
       "topics": [
-        "pertambangan_alat_berat"
+        "transportasi_logistik"
       ],
       "content_goal": [
-        "awareness"
+        "awareness",
+        "acquisition"
       ],
       "urls": [
         {
-          "url": "https://www.petromindo.com/",
+          "url": "https://supplychainindonesia.com/publikasi/",
           "purpose": "liputan_industri"
         }
       ],
-      "keywords": [],
-      "notes": "Dinamika pertambangan; sebagian konten mungkin berbayar."
+      "keywords": [
+        "logistik",
+        "supply chain",
+        "pelabuhan",
+        "rantai pasok"
+      ],
+      "notes": "Lembaga riset/konsultasi logistik; publikasi Berita, Artikel, dan Catatan seputar logistik nasional. Sebagian konten kurasi dari media lain — cek ke sumber aslinya bila dipakai sebagai referensi.",
+      "rss_url": "https://supplychainindonesia.com/feed/"
     }
   ]
 }
