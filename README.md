@@ -23,12 +23,17 @@ Tabel ini dibuat otomatis dari `sources.json`. Edit daftar di file JSON; perubah
 | [Korlantas Polri](https://korlantas.polri.go.id/) | Penegak hukum | Regulasi, Keselamatan armada | Sedang | awareness, acquisition | Aktif |
 | [BPS—Statistik Transportasi](https://www.bps.go.id/id/statistics-table?subject=560) | Data | Transportasi & logistik | Pendukung | awareness | Aktif |
 | [Ditjen Minerba](https://www.minerba.esdm.go.id/) | Regulator | Pertambangan & alat berat | Pantau akses | awareness, acquisition | Pantau akses |
-| [Kompas Otomotif—Niaga](https://otomotif.kompas.com/niaga) | Media | Kendaraan niaga, Teknologi armada | Tinggi | awareness | Aktif |
-| [detikOto—Kendaraan Niaga](https://oto.detik.com/kendaraan-niaga) | Media | Kendaraan niaga, Teknologi armada | Tinggi | awareness | Aktif |
+| [Kompas Otomotif—Niaga](https://otomotif.kompas.com/niaga) | Media | Kendaraan niaga, Teknologi armada | Pantau akses | awareness | Pantau akses |
+| [detikOto—Kendaraan Niaga](https://oto.detik.com/kendaraan-niaga) | Media | Kendaraan niaga, Teknologi armada | Pantau akses | awareness | Pantau akses |
 | [Logistik News—Transportasi & Logistik](https://www.logistiknews.id/topic/transportasi-logistik/) | Media industri | Transportasi & logistik | Tinggi | awareness, acquisition | Aktif |
-| [Bisnis.com—Transportasi & Logistik](https://ekonomi.bisnis.com/transportasi-logistik) | Media | Transportasi & logistik | Tinggi | awareness, acquisition | Aktif |
-| [ANTARA—Ekonomi/Bisnis](https://www.antaranews.com/ekonomi/bisnis) | Kantor berita | Ekonomi, Transportasi & logistik, BBM & energi | Sedang | awareness, acquisition | Aktif |
+| [Bisnis.com—Transportasi & Logistik](https://ekonomi.bisnis.com/transportasi-logistik) | Media | Transportasi & logistik | Pantau akses | awareness, acquisition | Pantau akses |
+| [ANTARA—Ekonomi/Bisnis](https://www.antaranews.com/ekonomi/bisnis) | Kantor berita | Ekonomi, Transportasi & logistik, BBM & energi | Pantau akses | awareness, acquisition | Pantau akses |
 | [Petromindo](https://www.petromindo.com/) | Media industri | Pertambangan & alat berat | Sedang | awareness | Aktif |
+| [Oto Mounture—Komersial](https://oto.mounture.com/komersial/) | Media | Kendaraan niaga, Teknologi armada | Tinggi | awareness | Aktif |
+| [Transportasi Media Indonesia](https://transportasimedia.com/) | Media industri | Kendaraan niaga, Teknologi armada | Tinggi | awareness | Aktif |
+| [Investor Daily](https://investor.id/) | Media | Transportasi & logistik | Tinggi | awareness, acquisition | Aktif |
+| [Holopis.com](https://holopis.com/) | Media | Ekonomi, Transportasi & logistik, BBM & energi | Sedang | awareness, acquisition | Aktif |
+| [Supply Chain Indonesia](https://supplychainindonesia.com/publikasi/) | Media industri | Transportasi & logistik | Sedang | awareness, acquisition | Aktif |
 <!-- sources-table:end -->
 
 ## Membaca daftar
