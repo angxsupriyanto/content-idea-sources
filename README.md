@@ -11,7 +11,7 @@ Tabel ini dibuat otomatis dari `sources.json`. Edit daftar di file JSON; perubah
 <!-- sources-table:start -->
 | Sumber | Jenis | Topik | Prioritas | Tujuan konten | Status |
 | --- | --- | --- | --- | --- | --- |
-| [Ditjen Perhubungan Darat](https://hubdat.dephub.go.id/id/publikasi/) | Regulator | Transportasi & logistik, Regulasi, Keselamatan armada | Tinggi | awareness, acquisition | Aktif |
+| [Ditjen Perhubungan Darat](https://hubdat.kemenhub.go.id/id/publikasi/) | Regulator | Transportasi & logistik, Regulasi, Keselamatan armada | Tinggi | awareness, acquisition | Aktif |
 | [Kementerian ESDM](https://www.esdm.go.id/id/media-center/arsip-berita) | Regulator | BBM & energi, Pertambangan & alat berat | Tinggi | awareness, acquisition | Aktif |
 | [BPH Migas](https://www.bphmigas.go.id/berita/) | Regulator | BBM & energi | Tinggi | awareness, acquisition | Aktif |
 | [JDIH Kemenhub](https://jdih.dephub.go.id/peraturan/index) | Dokumen hukum | Regulasi, Transportasi & logistik | Tinggi | awareness, acquisition | Aktif |
